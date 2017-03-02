@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="SpringMVCHibernate">
+        <wb-resource deploy-path="/" source-path="/srcmainwebapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/"/>
+        <dependent-module archiveName="SpringMVCHibernate.war" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Maven_Project/SampleSpringMVCHibernate/SpringMVCHibernate/target/SpringMVCHibernate.war">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="SpringMVCHibernate"/>
+        <property name="java-output-path" value="/SpringMVCHibernate/target/classes"/>
+    </wb-module>
+</project-modules>
